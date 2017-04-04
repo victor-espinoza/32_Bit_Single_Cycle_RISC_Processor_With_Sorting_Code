@@ -1,0 +1,6 @@
+verilog work "src/register_file.v"
+verilog work "src/Controller.v"
+verilog work "src/ALU.v"
+verilog work "src/SingleCycle.v"
+verilog work "src/SingleCycle_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
