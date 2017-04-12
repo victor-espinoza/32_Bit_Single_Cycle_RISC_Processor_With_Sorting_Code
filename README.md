@@ -5,6 +5,8 @@ Single Cycle MIPS Processor with additional sorting code to verify the correctne
 The purpose of this lab was to build off of the Single Cycle MIPS Processor that I created in the previous lab and use it to solve a problem. For this problem, I was given an assortment of values filling data memory addresses 0x200 to 0x3FF. I then had to add the 32 largest values within this memory space together and store that value in data memory address 0x100.   
   
 After this, I needed to add the 32 smallest values within this memory space together and store that value into data memory address 0x101. Finally, I needed to AND all of the values together, OR all of the values together, and perform a checksum on all of the data located within this address range and store those values in data memory addresses 0x102, 0x103, and 0x104, respectively. In order to do this, I needed to write the machine code to sort the data values first and then perform the respective operations on the data afterwards.   
+     
+The verilog source code files contain an in-depth discussion of each module and its purpose within the project.  
 
 Project Machine Code:  
 00:	  addi $r1,  $r0, 0x0001 	   
