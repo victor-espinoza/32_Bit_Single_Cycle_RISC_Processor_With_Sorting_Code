@@ -10,7 +10,7 @@ Project Machine Code:
 00:	  addi $r1,  $r0, 0x0001 	   
 04:	  addi $r10, $r0, 0x01FF	   
 08:	  addi $r11, $r0, 0x01FF  
-0C:	  addi $r2,  $r0, 0x0000	 
+0C:	  addi $r2,  $r0, 0x0000	      
 10:	  addi $r3,  $r0, 0x0000   
 14:	  addi $r4,  $r0, 0x0800	  
 18:	  lw   $r5,  $r4, 0x0000	  
