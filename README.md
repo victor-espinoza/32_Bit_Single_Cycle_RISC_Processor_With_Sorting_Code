@@ -1,5 +1,5 @@
 Project Overview:  
-
+ 
 Single Cycle RISC Processor with additional sorting code to verify the correctness of the processor.  
   
 The purpose of this lab was to build off of the Single Cycle MIPS Processor that I created in the previous lab and use it to solve a problem. For this problem, I was given an assortment of values filling data memory addresses 0x200 to 0x3FF. I then had to add the 32 largest values within this memory space together and store that value in data memory address 0x100.   
